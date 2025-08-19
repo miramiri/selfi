@@ -1,0 +1,32 @@
+{
+  "owner_id": 2106299990,
+  "echo_users": [
+    7768586264
+  ],
+  "enabled": true,
+  "delay": 1.0,
+  "stop_emoji": null,
+  "last_user": null,
+  "last_group": null,
+  "funny_text": "مگه نیما فشاری 😂",
+  "status_msg_id": 361192,
+  "auto_groups": [
+    -4707851227,
+    -1002758262806,
+    -1002803088951
+  ],
+  "copy_groups": [
+    -4918685267
+  ],
+  "copy_plus_user": null,
+  "awaiting_collect": false,
+  "saved_echo_users": [],
+  "last_collect_trigger": 0,
+  "last_humanizer_cmd": null,
+  "last_humanizer_ts": 0,
+  "allowed_groups": [
+    -4918685267
+  ],
+  "friends": [],
+  "reaction_emoji": "❤️"
+}

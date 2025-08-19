@@ -1,0 +1,21 @@
+{
+  "owner_id": 7088376114,
+  "echo_users": [
+    7768586264
+  ],
+  "enabled": true,
+  "delay": 2.0,
+  "stop_emoji": [
+    "⚜",
+    "💮",
+    "⚡",
+    "❓"
+  ],
+  "last_user": 7768586264,
+  "last_group": -4918685267,
+  "funny_text": "مگه نیما فشاری 😂",
+  "status_msg_id": 205793,
+  "auto_groups": [],
+  "copy_groups": [],
+  "copy_plus_user": null
+}

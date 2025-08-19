@@ -1,0 +1,44 @@
+{
+  "owner_id": 7768586264,
+  "echo_users": [],
+  "enabled": true,
+  "delay": 1.0,
+  "stop_emoji": [
+    "⚜",
+    "💮",
+    "⚡",
+    "❓"
+  ],
+  "last_user": null,
+  "last_group": -1002689099244,
+  "funny_text": "مگه نیما فشاری 😂",
+  "status_msg_id": 243223,
+  "auto_groups": [
+    -1002277633121,
+    -4918685267,
+    -1002554578238,
+    -1002823517376,
+    -1002846790805,
+    -1002689099244,
+    -1002017921306,
+    7768586264,
+    -1002874441904
+  ],
+  "copy_groups": [
+    -4918685267
+  ],
+  "copy_plus_user": 103935206,
+  "saved_echo_users": [],
+  "awaiting_collect": false,
+  "last_collect_trigger": 1755541964,
+  "last_humanizer_cmd": "/catch reina",
+  "last_humanizer_ts": 1755541964,
+  "react_users": {
+    "8127815201": ".",
+    "103935206": "خاموش",
+    "7632183335": "حذف"
+  },
+  "copy_plus": [
+    8127815201
+  ]
+}
