@@ -28,13 +28,10 @@ with open("config.json", "r", encoding="utf-8") as f:
 API_ID = int(config["api_id"])
 API_HASH = config["api_hash"]
 
-SESSIONS_FILE = "accounts.json"
-if not os.path.exists(SESSIONS_FILE):
-    print("❌ accounts.json پیدا نشد!")
-    raise SystemExit(1)
-
-with open(SESSIONS_FILE, "r", encoding="utf-8") as f:
-    SESSIONS = json.load(f)
+SESSIONS = [
+    "acc", "acc0", "acc7", "acc8", "acc9",
+    "acc10", "acc11", "acc12", "acc13", "accyosef"
+]
 
 # فایل مشترک برای گروه‌ها (شناسه‌های تلگرام)
 GROUPS_FILE = "groups.json"
