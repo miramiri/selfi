@@ -2,3 +2,5 @@ flask
 telethon
 pyrogram
 requests
+jdatetime
+pytz
