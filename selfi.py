@@ -13,7 +13,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "Bot is alive!"
+    return "نيما نوب سگ!"
 
 def run():
     app.run(host="0.0.0.0", port=8080)
@@ -57,7 +57,7 @@ async def setup_client(session_name):
         "stop_emoji": ["⚜", "💮", "⚡", "❓"],  
         "last_user": None,
         "last_group": None,
-        "funny_text": "مگه نیما فشاری 😂",
+        "funny_text": "نیما فشاری 😂",
         "status_msg_id": None,
         "auto_groups": [],     
         "copy_groups": [],
@@ -252,11 +252,11 @@ async def setup_client(session_name):
         if "کپی" in event.raw_text:
             if gid not in state["copy_groups"]:
                 state["copy_groups"].append(gid)
-            text = "✅ گروه برای کپی + اتوکچ ثبت شد."
+            text = "✅عاقبت."
         else:
             if gid not in state["auto_groups"]:
                 state["auto_groups"].append(gid)
-            text = "✅ گروه برای اتوکچ ثبت شد."
+            text = "پيگيري ميکنم."
         save_state()
         await event.edit(text)
         await send_status()
