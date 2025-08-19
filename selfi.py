@@ -23,7 +23,7 @@ def keep_alive():
     t.start()
 
 # --- خواندن API_ID و API_HASH ---
-with open("config.json", "r", encoding="utf-8") as f:
+with open("confing.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 API_ID = int(config["api_id"])
 API_HASH = config["api_hash"]
