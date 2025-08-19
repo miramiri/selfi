@@ -1,0 +1,4 @@
+flask
+telethon
+pyrogram
+requests
