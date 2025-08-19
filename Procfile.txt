@@ -1,1 +1,1 @@
-web: python selfi.py
+python selfi.py
